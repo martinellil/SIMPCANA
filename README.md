@@ -1,11 +1,7 @@
 # SIMPCANA
-### Sistema de Monitoramento de Perdas na Colheita de Cana-de-Açúcar
+ Sistema de Monitoramento de Perdas na Colheita de Cana-de-Açúcar
 
-> Projeto da disciplina **Gestão do Agronegócio em Python** — Capítulos 3 ao 6  
-
----
-
-## O problema
+ O problema
 
 O Brasil é o maior produtor mundial de cana-de-açúcar. Mesmo assim, enfrenta perdas significativas durante a **colheita mecânica**, que chegam a **15% da produção bruta**, segundo avaliação da SOCICANA. A colheita manual, em comparação, apresenta perdas de apenas **5%**.
 
