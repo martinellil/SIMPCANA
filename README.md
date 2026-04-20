@@ -45,7 +45,7 @@ simpcana/
 
 ## Conteúdo técnico — Capítulos 3 ao 6
 
-### Capítulo 3 — Subalgoritmos com passagem de parâmetros (`main.py`)
+
 
 | Função | Descrição |
 |--------|-----------|
@@ -62,7 +62,7 @@ simpcana/
 
 ---
 
-### Capítulo 4 — Estruturas de dados (`main.py`)
+
 
 **Dicionário** — cadastro de talhões, onde a chave é o código e o valor é um dicionário de atributos:
 ```python
@@ -95,7 +95,7 @@ TIPOS      = ("manual", "mecanica")
 
 ---
 
-### Capítulo 5 — Manipulação de arquivos (`main.py`)
+
 
 **JSON** — `salvar_json()` usa `json.dump()` para persistir o estado completo; `carregar_json()` usa `json.load()` para restaurar:
 ```json
@@ -110,7 +110,7 @@ TIPOS      = ("manual", "mecanica")
 
 ---
 
-### Capítulo 6 — Conexão com banco de dados Oracle (`database.py`)
+
 
 - Conexão via `oracledb.connect()` com configuração em `DB_CONFIG`
 - Criação automática das tabelas `SIMPCANA_TALHOES` e `SIMPCANA_COLHEITAS` e da sequence `SIMPCANA_SEQ`
@@ -151,9 +151,9 @@ cd simpcana
 ```bash
 pip install -r requirements.txt
 ```
-> `oracledb` só é necessário para as funções Oracle. O restante funciona sem ele.
 
-**3. Configure o Oracle** (opcional — edite `database.py`):
+
+**3. Configure o Oracle** :
 ```python
 DB_CONFIG = {
     "user":     "SIMPCANA",
@@ -172,7 +172,7 @@ GRANT CONNECT, RESOURCE, UNLIMITED TABLESPACE TO simpcana;
 ```bash
 python main.py
 ```
-O sistema carrega os dados salvos automaticamente ao iniciar e oferece salvar ao sair.
+
 
 ---
 
